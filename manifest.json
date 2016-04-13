@@ -1,0 +1,17 @@
+{
+  "name":             "ChromeExtensionTutorial",
+  "version":          "0.0.1",
+  "manifest_version": 2,
+  "description":      "tutorial",
+  "content_scripts":  [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "js/jquery-1.12.3.min.js",
+        "js/script.js"
+      ]
+    }
+  ]
+}
